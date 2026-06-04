@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from pydantic import ValidationError
 from .models import StoreEvent
 from uuid import UUID
+events_db = []
 
 router = APIRouter()
 
